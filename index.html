@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">My Work</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About Me</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">My Skills</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,13 +49,18 @@
                 </div>
                 <!-- Masthead Subheading-->
                 <p class="masthead-subheading font-weight-light mb-0">Software Engineer - Marketing Manager - Book Lover</p>
+                <br />
+                <div class="contact-links">
+                  <a class="contact-links-item" href="https://www.linkedin.com/in/lauren-menendez"><img src="https://icongr.am/devicon/linkedin-original.svg?size=50&color=currentColor"></a>
+                  <a class="contact-links-item" href="https://github.com/laurenmenendez"><img src="https://icongr.am/devicon/github-original.svg?size=50&color=currentColor"></a>
+                </div>
             </div>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">My Work</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -145,76 +150,37 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <!-- Skills Section-->
+        <section class="page-section" id="skills">
             <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!-- Skills Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">My Skills</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
+                <!-- Skills Icons section-->
+                <div class="skills">
+                  <ul class="list-group">
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/javascript-original.svg?size=50"> Javascript</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/react-original-wordmark.svg?size=50"> React.js</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/nodejs-original.svg?size=50"> Node.js</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/express-original.svg?size=50"> Express.js</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/jquery-original-wordmark.svg?size=50"> jQuery</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=50"> MongoDB</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/postgresql-original-wordmark.svg?size=50"> PostgreSQL</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/python-original.svg?size=50&color=currentColor"> Python</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/django-original.svg?size=50&color=currentColor"> Django</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/html5-original-wordmark.svg?size=50"> HTML5</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/css3-original-wordmark.svg?size=50"> CSS</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/sass-original.svg?size=50"> Sass</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=50&amp;color=563d7c"> Bootstrap</li>
+                    <li class="list-group-item"><img src="https://icongr.am/devicon/git-original-wordmark.svg?size=50"> Git</li>
+                  </ul>
                 </div>
-            </div>
+              </div>
         </section>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
